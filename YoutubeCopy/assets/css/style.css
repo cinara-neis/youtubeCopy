@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 0px 24px;
+    height: 56px;
+    gap: 32px;
+    border: 1px solid  #efeaea;
+}
+.burger{
+    padding-bottom: 8px;
+}
+.logoYoutube{
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+
+.search{
+    margin-left: 350px;
+    margin-top: 0px;
+}
+.avatar{
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    margin-left: 20px;
+}
+.notification{
+    margin-left: 420px;   
+}
+.bell{
+    padding-left: 20px;
+}
+#corpy{
+    display: flex;
+    flex-direction: row;
+    grid-area: repeat-x;
+    margin-left: 75px;
+}
+
+.iframe{
+    margin-top: 28px;
+    margin-right: 10px;
+}
+.title{
+    flex: none;
+order: 1;
+flex-grow: 0;
+width: 871px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+margin-top: 16px;
+}
+
+.videoSmall{
+    display: flex;
+    height:130px;
+    width: 50px;
+    flex-direction: row;
+}
+
+.description{
+    display: flex ;
+    flex-direction: row;
+    margin-top: 16px;
+    align-items: center;
+}
+.description-container{
+margin-left: 12px;
+line-height: 2px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+}
+.titleD{
+width: 220px;
+height: 25px;
+left: 176px;
+margin-top: 28px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 13px;
+}
+.pTitle{
+    font-size: 11px;
+}
+.dioBlack{
+    font-weight: bold;
+}
+
+.btn{
+    width: 159px;
+    height: 40px;
+    margin-left: 42px;
+    top: 1px;
+    background-color: #cc0000;
+    color: #ffff;
+    border: none;
+    border-radius:4px ;
+    cursor: pointer;
+}
+.like{
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+}
+.like-content{
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    height: 16px;
+    margin-left: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.pLike{
+font-size: 16px;
+margin-left:10px;
+}
+.btnLike{
+    border: none;
+    cursor:pointer;
+    background-color: transparent ;
+}
+
+.transmitions{
+    font-weight: bold;
+    font-size: 16px;
+}
+.text-final{
+    width: 510px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+.videos{
+    margin-left: 25px;
+}
